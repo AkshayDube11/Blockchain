@@ -1,0 +1,29 @@
+?pragma solidity >=0.4.22 <0.7.0;
+
+
+contract name{
+    
+    
+string response;
+        
+    
+function enterName(string newResponse) public{
+
+        response = newResponse;
+    
+}
+    
+function setEntry(string newResponse) public{
+
+        response = newResponse;
+    
+}
+    
+function getEntry() public view returns(string){
+
+        return(response);
+    
+}
+    
+
+}
